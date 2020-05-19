@@ -12,6 +12,8 @@ public class Repeat_29 {
         int num;
         int randint = random.nextInt(100);
 
+        System.out.println(randint);
+
         for (int i = 6; i > 0; i--) {
             System.out.print("남은횟수 " + i + "회 어떤숫자일까?");
             num = scanner.nextInt();
@@ -20,7 +22,7 @@ public class Repeat_29 {
             } else if (randint < num) {
                 System.out.println("더 작은 수 입니다.");
             } else {
-                System.out.println(6-i +"회 만에 맞추었습니다.");
+                System.out.println(6-i+1 +"회 만에 맞추었습니다.");
                 break;
             }
 
