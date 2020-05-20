@@ -7,5 +7,6 @@
 	<classpathentry kind="src" path="03_Branch"/>
 	<classpathentry kind="src" path="04_Repeat"/>
 	<classpathentry kind="src" path="05_DataType"/>
+	<classpathentry kind="src" path="07_Method"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
