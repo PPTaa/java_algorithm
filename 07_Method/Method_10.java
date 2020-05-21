@@ -43,6 +43,8 @@ public class Method_10 {
                 int k = scanner.nextInt();
                 if (k == answer) {
                     break;
+
+                    
                 }
                 System.out.println("틀림");
             }
