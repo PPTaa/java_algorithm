@@ -12,7 +12,7 @@ public class Car {
     private double sfc;
 
     Car (String name, String number, int width, int height, int length,
-    double x, double y, double tankage, double fuel, double sfc) {
+    double tankage, double fuel, double sfc) {
         this.name = name;
         this.number = number;
         this.width = width;
@@ -47,7 +47,7 @@ public class Car {
     }
     //x방향으로 dx, y방향으로 dy이동
     boolean move (double dx, double dy){
-        double dist = Math.sqrt(dx*dx+dy*dy);
+        double dist = Math.sqrt(dx*dx+dy*dy); //sqrt : 제곱근
         double f = dist/sfc;
         if (f>fuel) {
             return false;
