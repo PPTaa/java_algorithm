@@ -65,6 +65,6 @@ public class HumanArray {
         for (int i = 0; i < y.length; i++) {
          System.out.printf("%d행\n",i);
          printHumanArray(y[i]);   
-        }
+        } 
     }
 }
