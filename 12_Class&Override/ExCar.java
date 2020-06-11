@@ -1,4 +1,4 @@
-public class ExCar extends car {
+public class ExCar extends Car_01 {
     private double totalMileage;
 
     public ExCar(String name, int width, int height, int length, double fuel, Day_01 purchaseDay) {
@@ -9,7 +9,7 @@ public class ExCar extends car {
     public double getTotalMileage(){
         return totalMileage;        
     }
-
+    @Override
     public void putSpec(){
         super.putSpec();
         System.out.printf("총 주행거리 : %.2f KM\n", totalMileage);

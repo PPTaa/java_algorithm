@@ -1,4 +1,4 @@
-public class car {
+public class Car_01 {
     private String name;
     private int width;
     private int height;
@@ -9,7 +9,7 @@ public class car {
     private double fuel;
     private Day_01 purchaseDay;
 
-    car(String name, int width, int height, int length, double fuel, Day_01 purchaseDay){
+    Car_01(String name, int width, int height, int length, double fuel, Day_01 purchaseDay){
         this.name = name;
         this.width = width;
         this.height = height;
