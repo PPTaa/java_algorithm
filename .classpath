@@ -13,5 +13,6 @@
 	<classpathentry kind="src" path="10_Class&amp;Method"/>
 	<classpathentry kind="src" path="11_Package"/>
 	<classpathentry kind="src" path="12_Class&amp;Override"/>
+	<classpathentry kind="src" path="13_AbstractClass"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
