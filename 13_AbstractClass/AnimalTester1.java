@@ -14,7 +14,7 @@ public class AnimalTester1 {
 
         for (Animal s : a) {
             System.out.print(s.getName()+":");
-            System.out.println(s);;
+            System.out.println(s);
             s.introduce();
         }
     }
